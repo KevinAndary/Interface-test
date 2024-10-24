@@ -1389,10 +1389,19 @@ section,
   font-size: 14px;
   padding: 5px 10px;
   font-weight: 400;
-  color: #ffffff;
   display: inline-block;
+}
+
+.status-ongoing {
+  color: #000000;
   background-color: #00e100;
 }
+
+.status-completed {
+  color: #ffffff;
+  background-color: #ff0000;
+}
+
 
 .projects .portfolio-content .portfolio-info p {
   position: absolute;
