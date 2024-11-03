@@ -166,11 +166,13 @@
                 const emailSubject = `${subject}`;
                 const emailBody = `${message}`;
         
-                const mailtoLink = `info@interface-qatar.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+                // Corrected mailto link with the mailto: prefix
+                const mailtoLink = `mailto:info@interface-qatar.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
         
                 window.location.href = mailtoLink;
             }
         </script>
+        
         
         
         <!-- End Contact Form -->
