@@ -124,27 +124,26 @@
 
         <div class="row gy-4 mt-1">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.562271004506!2d51.54196007436362!3d25.285306428128212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c5f272250c69%3A0xfadd95173b1aac8b!2sAl%20Rufaa%20Tower!5e0!3m2!1sen!2slb!4v1727192183393!5m2!1sen!2slb" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5928.051760704522!2d51.544535!3d25.285302!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c5f272250c69%3A0xfadd95173b1aac8b!2sAl%20Rufaa%20Tower!5e1!3m2!1sen!2slb!4v1730236494826!5m2!1sen!2slb" width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>          </div>
           <!-- End Google Maps -->
 
-          <!-- <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-6">
+            <form id="contactForm" class="php-email-form" data-aos="fade-up" data-aos-delay="400" onsubmit="sendEmail(event)">
                 <div class="row gy-4">
                     <div class="col-md-6">
-                        <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                        <input type="text" id="name" class="form-control" placeholder="Your Name" required>
                     </div>
         
                     <div class="col-md-6">
-                        <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                        <input type="email" id="email" class="form-control" placeholder="Your Email" required>
                     </div>
         
                     <div class="col-md-12">
-                        <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                        <input type="text" id="subject" class="form-control" placeholder="Subject" required>
                     </div>
         
                     <div class="col-md-12">
-                        <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                        <textarea id="message" class="form-control" rows="6" placeholder="Message" required></textarea>
                     </div>
         
                     <div class="col-md-12 text-center">
@@ -155,7 +154,25 @@
                     </div>
                 </div>
             </form>
-        </div> -->
+        </div>
+        
+        <script>
+            function sendEmail(event) {
+                event.preventDefault();
+        
+                const subject = document.getElementById("subject").value;
+                const message = document.getElementById("message").value;
+        
+                const emailSubject = `${subject}`;
+                const emailBody = `${message}`;
+        
+                const mailtoLink = `info@interface-qatar.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+        
+                window.location.href = mailtoLink;
+            }
+        </script>
+        
+        
         <!-- End Contact Form -->
         
         </div>
