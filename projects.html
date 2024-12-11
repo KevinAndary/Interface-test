@@ -47,25 +47,34 @@
           <li><a href="about.html">About</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="certifications.html">Certifications</a></li>
           <li><a href="blog.html">News</a></li>
-          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li> -->
           <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="mailto:info@interface-qatar.com;rachad.chebly@interface-qatar.com" class="quote-button">Get a Quote</a>
+          </li>
+          
+          <style>
+            .quote-button {
+              display: inline-block;
+              padding: 4px 8px !important; /* Larger padding for a bigger contour */
+              background-color: #ff0000 !important; /* Bright red color */
+              color: #000 !important; /* Black text color */
+              text-decoration: none !important;
+              border-radius: 50px !important; /* Fully rounded corners */
+              font-weight: bold !important;
+              font-size: 15px !important; /* Slightly larger font for emphasis */
+              text-align: center;
+              transition: background-color 0.3s ease, transform 0.2s ease;
+            }
+          
+            .quote-button:hover {
+              background-color: #cc0000 !important; /* Darker red for hover effect */
+              transform: scale(1.05); /* Slight zoom effect on hover */
+            }
+          </style>
+
+
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -76,7 +85,7 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title dark-background" style="background-image: url(assets/img/page-title-bg.jpg);">
+    <div class="page-title dark-background" style="background-image: url(assets/img/hero-carousel/hero-carousel-1.jpg);">
       <div class="container position-relative">
         <h1>Projects</h1>
         <nav class="breadcrumbs">
@@ -111,12 +120,19 @@
                 <img src="assets/img/projects/QATAR Chamber Images/QATAR-Chamber_Page_01.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4 class="status-ongoing">ONGOING</h4>
-                  <p>Qatar Chamber Lusail Commercial</p>
-                  <a href="assets/img/projects/QATAR Chamber Images/QATAR-Chamber_Page_01.png" title="Qatar Chamber Lusail Commercial" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <p>Qatar Chamber of Commerce</p>
+                  <a href="assets/img/projects/QATAR Chamber Images/QATAR-Chamber_Page_01.png" title="Qatar Chamber of Commerce" data-gallery="portfolio-gallery-qatarChamber" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="project-1-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div>
+
+            <!-- Hidden lightbox images -->
+            <a href="assets/img/projects/QATAR Chamber Images/QATAR-Chamber_Page_03.png" title="Qatar Chamber of Commerce" data-gallery="portfolio-gallery-qatarChamber" class="glightbox" style="display:none;"></a>
+            <a href="assets/img/projects/QATAR Chamber Images/QATAR-Chamber_Page_08.png" title="Qatar Chamber of Commerce" data-gallery="portfolio-gallery-qatarChamber" class="glightbox" style="display:none;"></a>
+            <a href="assets/img/projects/QATAR Chamber Images/QATAR-Chamber_Page_23.png" title="Qatar Chamber of Commerce" data-gallery="portfolio-gallery-qatarChamber" class="glightbox" style="display:none;"></a>
+            <a href="assets/img/projects/QATAR Chamber Images/QATAR-Chamber_Page_48.png" title="Qatar Chamber of Commerce" data-gallery="portfolio-gallery-qatarChamber" class="glightbox" style="display:none;"></a>
+
             <!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
@@ -126,7 +142,7 @@
                   <h4 class="status-ongoing">ONGOING</h4>
                   <p>Al Mirqab Al Jadeed</p>
                   <!-- First image, part of the same lightbox gallery -->
-                  <a href="assets/img/projects/Mirqab Al Jadeed images/Mirqab Al Jadeed_Page_2.png" title="Al Mirqab Al Jadeed" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/projects/Mirqab Al Jadeed images/Mirqab Al Jadeed_Page_2.png" title="Al Mirqab Al Jadeed" data-gallery="portfolio-gallery-mirqabAlJadeed" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <!-- Additional details link -->
                   <a href="project-2-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
@@ -134,10 +150,10 @@
             </div>
             
             <!-- Hidden lightbox images -->
-            <a href="assets/img/projects/Mirqab Al Jadeed images/Mirqab Al Jadeed_Page_1.png" title="Al Mirqab Al Jadeed" data-gallery="portfolio-gallery-product" class="glightbox" style="display:none;"></a>
-            <a href="assets/img/projects/Mirqab Al Jadeed images/Mirqab Al Jadeed_Page_3.png" title="Al Mirqab Al Jadeed" data-gallery="portfolio-gallery-product" class="glightbox" style="display:none;"></a>
-            <a href="assets/img/projects/Mirqab Al Jadeed images/Mirqab Al Jadeed_Page_4.png" title="Al Mirqab Al Jadeed" data-gallery="portfolio-gallery-product" class="glightbox" style="display:none;"></a>
-            <a href="assets/img/projects/Mirqab Al Jadeed images/Mirqab Al Jadeed_Page_5.png" title="Al Mirqab Al Jadeed" data-gallery="portfolio-gallery-product" class="glightbox" style="display:none;"></a>
+            <a href="assets/img/projects/Mirqab Al Jadeed images/Mirqab Al Jadeed_Page_1.png" title="Al Mirqab Al Jadeed" data-gallery="portfolio-gallery-mirqabAlJadeed" class="glightbox" style="display:none;"></a>
+            <a href="assets/img/projects/Mirqab Al Jadeed images/Mirqab Al Jadeed_Page_3.png" title="Al Mirqab Al Jadeed" data-gallery="portfolio-gallery-mirqabAlJadeed" class="glightbox" style="display:none;"></a>
+            <a href="assets/img/projects/Mirqab Al Jadeed images/Mirqab Al Jadeed_Page_4.png" title="Al Mirqab Al Jadeed" data-gallery="portfolio-gallery-mirqabAlJadeed" class="glightbox" style="display:none;"></a>
+            <a href="assets/img/projects/Mirqab Al Jadeed images/Mirqab Al Jadeed_Page_5.png" title="Al Mirqab Al Jadeed" data-gallery="portfolio-gallery-mirqabAlJadeed" class="glightbox" style="display:none;"></a>
             
             <!-- End Portfolio Item -->
 
@@ -146,9 +162,9 @@
                 <img src="assets/img/projects/Private Villa _ Civil Works/25-10-2023/1.jpg" class="img-fluid" alt="Private Villa Civil Works">
                 <div class="portfolio-info">
                   <h4 class="status-completed">COMPLETED</h4>
-                  <p>Private Villa Civil Works</p>
+                  <p>Civil Works for Private Villas</p>
                   <!-- First image, part of the same lightbox gallery -->
-                  <a href="assets/img/projects/Private Villa _ Civil Works/25-10-2023/1.jpg" title="Private Villa Civil Works" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/projects/Private Villa _ Civil Works/25-10-2023/1.jpg" title="Civil Works for Private Villas" data-gallery="portfolio-gallery-civilWorksPrivVilla" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <!-- Additional details link -->
                   <a href="project-3-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
@@ -156,10 +172,10 @@
             </div>
             
             <!-- Hidden lightbox images -->
-            <a href="assets/img/projects/Private Villa _ Civil Works/25-10-2023/2.jpg" title="Private Villa Civil Works" data-gallery="portfolio-gallery-product" class="glightbox" style="display:none;"></a>
-            <a href="assets/img/projects/Private Villa _ Civil Works/25-10-2023/3.jpg" title="Private Villa Civil Works" data-gallery="portfolio-gallery-product" class="glightbox" style="display:none;"></a>
-            <a href="assets/img/projects/Private Villa _ Civil Works/25-10-2023/4.jpg" title="Private Villa Civil Works" data-gallery="portfolio-gallery-product" class="glightbox" style="display:none;"></a>
-            <a href="assets/img/projects/Private Villa _ Civil Works/25-10-2023/5.jpg" title="Private Villa Civil Works" data-gallery="portfolio-gallery-product" class="glightbox" style="display:none;"></a>
+            <a href="assets/img/projects/Private Villa _ Civil Works/25-10-2023/2.jpg" title="Civil Works for Private Villas" data-gallery="portfolio-gallery-civilWorksPrivVilla" class="glightbox" style="display:none;"></a>
+            <a href="assets/img/projects/Private Villa _ Civil Works/25-10-2023/3.jpg" title="Civil Works for Private Villas" data-gallery="portfolio-gallery-civilWorksPrivVilla" class="glightbox" style="display:none;"></a>
+            <a href="assets/img/projects/Private Villa _ Civil Works/25-10-2023/4.jpg" title="Civil Works for Private Villas" data-gallery="portfolio-gallery-civilWorksPrivVilla" class="glightbox" style="display:none;"></a>
+            <a href="assets/img/projects/Private Villa _ Civil Works/25-10-2023/5.jpg" title="Civil Works for Private Villas" data-gallery="portfolio-gallery-civilWorksPrivVilla" class="glightbox" style="display:none;"></a>
 
             <!-- End Portfolio Item -->
 
@@ -168,9 +184,9 @@
                 <img src="assets/img/projects/Umm Slal 4 villas/13-MOOD BOARD-OP2.jpg" class="img-fluid" alt="Private Villa Civil Works">
                 <div class="portfolio-info">
                   <h4 class="status-completed">COMPLETED</h4>
-                  <p>Umm Slal 4 Villas</p>
+                  <p>Fit-Out for 4 Villas</p>
                   <!-- First image, part of the same lightbox gallery -->
-                  <a href="assets/img/projects/Umm Slal 4 villas/13-MOOD BOARD-OP2.jpg" title="Umm Slal 4 villas" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/projects/Umm Slal 4 villas/13-MOOD BOARD-OP2.jpg" title="Fit-Out for 4 Villas" data-gallery="portfolio-gallery-fitOut4Villas" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <!-- Additional details link -->
                   <a href="project-4-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
@@ -178,10 +194,10 @@
             </div>
             
             <!-- Hidden lightbox images -->
-            <a href="assets/img/projects/Umm Slal 4 villas/12-MOOD BOARD-OP1.jpg" title="Private Villa Civil Works" data-gallery="portfolio-gallery-product" class="glightbox" style="display:none;"></a>
-            <a href="assets/img/projects/Umm Slal 4 villas/14-MOOD BOARD-OP3.jpg" title="Private Villa Civil Works" data-gallery="portfolio-gallery-product" class="glightbox" style="display:none;"></a>
-            <a href="assets/img/projects/Umm Slal 4 villas/15-MOOD BOARD-OP4.jpg" title="Private Villa Civil Works" data-gallery="portfolio-gallery-product" class="glightbox" style="display:none;"></a>
-            <a href="assets/img/projects/Umm Slal 4 villas/16-MOOD BOARD-OP5.jpg" title="Private Villa Civil Works" data-gallery="portfolio-gallery-product" class="glightbox" style="display:none;"></a>
+            <a href="assets/img/projects/Umm Slal 4 villas/12-MOOD BOARD-OP1.jpg" title="Fit-Out for 4 Villas" data-gallery="portfolio-gallery-fitOut4Villas" class="glightbox" style="display:none;"></a>
+            <a href="assets/img/projects/Umm Slal 4 villas/14-MOOD BOARD-OP3.jpg" title="Fit-Out for 4 Villas" data-gallery="portfolio-gallery-fitOut4Villas" class="glightbox" style="display:none;"></a>
+            <a href="assets/img/projects/Umm Slal 4 villas/15-MOOD BOARD-OP4.jpg" title="Fit-Out for 4 Villas" data-gallery="portfolio-gallery-fitOut4Villas" class="glightbox" style="display:none;"></a>
+            <a href="assets/img/projects/Umm Slal 4 villas/16-MOOD BOARD-OP5.jpg" title="Fit-Out for 4 Villas" data-gallery="portfolio-gallery-fitOut4Villas" class="glightbox" style="display:none;"></a>
 
             <!-- End Portfolio Item -->
 
@@ -190,9 +206,9 @@
                 <img src="assets/img/projects/Private Client_Metal Works/MAJLIS - GROUND FLOOR PLAN_Page_3.png" class="img-fluid" alt="Private Villa Civil Works">
                 <div class="portfolio-info">
                   <h4 class="status-completed">COMPLETED</h4>
-                  <p>Private Client Metal Works</p>
+                  <p>Metal Works for Private Palace</p>
                   <!-- First image, part of the same lightbox gallery -->
-                  <a href="assets/img/projects/Private Client_Metal Works/MAJLIS - GROUND FLOOR PLAN_Page_3.png" title="Private Client Metal Works" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/projects/Private Client_Metal Works/MAJLIS - GROUND FLOOR PLAN_Page_3.png" title="Metal Works for Private Palace" data-gallery="portfolio-gallery-metalWorksPrivPalace" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <!-- Additional details link -->
                   <a href="project-5-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
@@ -200,7 +216,7 @@
             </div>
             
             <!-- Hidden lightbox images -->
-            <a href="assets/img/projects/Private Client_Metal Works/MAJLIS - GROUND FLOOR PLAN_Page_4.png" title="Private Client Metal Works" data-gallery="portfolio-gallery-product" class="glightbox" style="display:none;"></a>
+            <a href="assets/img/projects/Private Client_Metal Works/MAJLIS - GROUND FLOOR PLAN_Page_4.png" title="Private Client Metal Works" data-gallery="portfolio-gallery-metalWorksPrivPalace" class="glightbox" style="display:none;"></a>
             <!-- End Portfolio Item -->
 
           </div>

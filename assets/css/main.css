@@ -2900,3 +2900,48 @@ section,
     height: 300px; /* Adjust the height as needed for mobile */
   }
 }
+
+/* General swiper-slide styling */
+.swiper-slide img {
+  max-height: 500px; /* Adjust the height for the web version */
+  width: auto; /* Maintain aspect ratio */
+  object-fit: contain;
+  margin: auto; /* Center the image */
+}
+
+/* Mobile-specific styling */
+@media (max-width: 768px) {
+  .swiper-slide img {
+    max-height: 300px; /* Smaller height for mobile */
+  }
+}
+
+
+  .project-details {
+    padding: 40px 0;
+  }
+
+  .certification-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .certification-image,
+  .portfolio-info {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+
+    .certification-image h2 {
+      text-align: center;
+    }
+  }
